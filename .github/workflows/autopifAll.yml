@@ -169,13 +169,13 @@ jobs:
         fi
 
     - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v7
-        with:
-          compression-level: 9
-          name: output
-          path: |
-            device_prop/
-            device_list.json
+      uses: actions/upload-artifact@v7
+      with:
+        compression-level: 9
+        name: output
+        path: |
+          device_prop/
+          device_list.json
 
     - name: Purge jsdelivr cache
       run: |
