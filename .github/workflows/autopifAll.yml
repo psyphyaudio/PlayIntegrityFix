@@ -1,4 +1,4 @@
-name: autopif
+name: autopifAll
 
 on:
   schedule:
